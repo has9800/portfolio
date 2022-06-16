@@ -2,6 +2,7 @@ import React from 'react';
 import { DiFirebase, DiReact, DiZend } from 'react-icons/di';
 import { Section, SectionDivider, SectionText, SectionTitle } from '../../styles/GlobalComponents';
 import { List, ListContainer, ListItem, ListParagraph, ListTitle } from './TechnologiesStyles';
+import tech from '../../constants/technologies'
 
 const Technologies = () =>  (
   <Section id="tech">
@@ -9,8 +10,15 @@ const Technologies = () =>  (
     <SectionTitle>Technologies</SectionTitle>
     <SectionText>
       I've worked with a range a technologies in the web development world.
-      From Back-end To Design
     </SectionText>
+    {/* <div>
+      <p>These include:</p>
+      <ul>
+        {tech.map(({ id, title}) => (
+          <ListItem key={id}>{title}</ListItem>
+        ))}
+      </ul>
+    </div> */}
     <List>
       <ListItem>
         <picture>
@@ -19,8 +27,8 @@ const Technologies = () =>  (
         <ListContainer>
           <ListTitle>Front-End</ListTitle>
           <ListParagraph>
-            Experiece with <br />
-            React.js
+            React.js, <br />
+            NextJS, and more...
           </ListParagraph>
         </ListContainer>
       </ListItem>
@@ -49,7 +57,7 @@ const Technologies = () =>  (
         </ListContainer>
       </ListItem>
     </List>
-    <SectionDivider colorAlt />
+    {/* <SectionDivider colorAlt /> */}
   </Section>
 );
 

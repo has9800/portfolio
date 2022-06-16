@@ -45,7 +45,7 @@ export const CarouselItem = styled.div`
   max-width: 196px;
 
   @media ${props => props.theme.breakpoints.md} {
-    max-width: 124px;
+    max-width: 200px;
   }
   
   @media ${props => props.theme.breakpoints.sm} {
