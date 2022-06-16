@@ -32,6 +32,7 @@ export const BlogCard = styled.div`
   -webkit-backdrop-filter: blur(5px);
   @media ${(props) => props.theme.breakpoints.sm} {
     width: 100%;
+    margin: 20px 0;
   }
 `;
 export const TitleContent = styled.div`
