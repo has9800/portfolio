@@ -14,7 +14,7 @@ const Hero = (props) => (
         <SectionText>
           Creating smart, accessible, scalable, and modern UIs using React, NextJS, and more...
         </SectionText>
-        <Button onClick={() => window.open('https://drive.google.com/drive/folders/1cEGqzKvu8ClFqlAXKMcvleZAq8gXVnHj')}>Download my CV</Button>
+        <Button onClick={() => window.open('https://docs.google.com/document/d/1vkYLdvrN3tRqJ8n_yU5UO-WnjnxwX3S-/edit?usp=sharing&ouid=104268776997702019774&rtpof=true&sd=true')}>Download my CV</Button>
       </LeftSection>
     </Section>
   </>
